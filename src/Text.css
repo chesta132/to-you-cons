@@ -1,0 +1,9 @@
+.Text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Text .years, .Text .days {
+    color: var(--least);
+}

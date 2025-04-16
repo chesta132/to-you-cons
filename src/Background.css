@@ -1,0 +1,20 @@
+.bg {
+    background-image: url(./assets/bg-stars.jpg);
+    height: 100dvh;
+    background-size: 220%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: var(--light);
+    animation: bgMove 120s linear infinite;
+}
+
+@keyframes bgMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}

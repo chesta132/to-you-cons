@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+    --primary: #604652;
+    --secondary: #735557;
+    --accent: #97866A;
+    --least: #e4c8b6;
+    --light: #F5F0E8;
+    --dark: #403834;
+}
+
+body {
+  font-family: 'Poppins', arial;
+}
